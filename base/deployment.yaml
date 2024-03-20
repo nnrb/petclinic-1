@@ -15,7 +15,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: example-registry-quay-quay.apps.test02.ocp4.com/admin/petclinic
+      - image: registry-quay-quay-registry.apps.cn.ocp4.com/test/petclinic
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
