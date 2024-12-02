@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: registry-quay-quay-registry.apps.cn.ocp4.com/test/petclinic
+- name: quay-registry-quay-quay.apps.hg2.ocp4.com/admin/petclinic
   newTag: latest
 resources:
 - ../../base
